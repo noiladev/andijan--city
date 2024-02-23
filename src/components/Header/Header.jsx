@@ -1,13 +1,12 @@
 import React from 'react' 
 import { Link } from 'react-router-dom' 
-import logo from '../../assets/logo/logo.svg' 
  
 function Header() { 
   return ( 
     <div className='container'> 
         <nav> 
             <Link  className='nav__logo' to='/'> 
-                <img src={logo} alt="" /> <h3>ANDIJAN HOUSE</h3> 
+                <img src="" alt="" /> <h3>ANDIJAN HOUSE</h3> 
             </Link> 
             <ul className='nav__list'> 
                 <li className="nav__item"> 
