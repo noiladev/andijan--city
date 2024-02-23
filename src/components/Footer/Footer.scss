@@ -1,0 +1,40 @@
+.footer {
+    // background-color: #bb1212;
+    padding-top: 45px;
+}
+
+.footer__wrapper {
+    display: flex;
+}
+
+.social {
+    display: block;
+    justify-content: center;
+}
+
+.net {
+    list-style-type: none;
+    display: flex;
+    margin-left: 0;
+    margin-left: -20px;
+    margin-top: 20px;
+}
+
+.apps {
+    background-color:  transparent; 
+    color: black;
+    margin-right: 34px;
+}
+
+.list {
+    display: flex;
+    list-style-type: none;
+    text-align-last: left;
+    align-items: start;
+}
+
+.item {
+    margin-left: 195px;
+    margin-bottom: 30px;
+    color: black;
+}
