@@ -5,7 +5,7 @@ import Second from './pages/Second/Second';
 import Third from './pages/Third/Third'; 
 import Riel from './pages/Rieltoriy/Riel'; 
 import Header from './components/Header/Header'; 
-import Footer from './components/Footer/Footer'; 
+import Footer from './components/Footer/Footer';
  
 function App() { 
   return ( 
@@ -17,7 +17,7 @@ function App() {
         <Route path='/third' element={<Third/>}/> 
         <Route path='/rieltoriy' element={<Riel/>}/> 
        </Routes> 
-       <Footer/> 
+      <Footer/>
     </div> 
   ); 
 } 

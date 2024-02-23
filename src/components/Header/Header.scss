@@ -1,0 +1,45 @@
+nav {
+    margin: 35px 150px auto 150px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around   ;
+    background-color: #cd0d0d;
+    border-radius: 5px;
+    padding: 13px 10px  11px 30px;
+    // border: 1PX SOLID RED;
+}
+
+.nav__logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #E2AC1D;
+}
+
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+
+.nav__item {
+    margin-left: 40px;
+    a {
+        color: black;
+        text-decoration: none;
+    }
+}
+
+.form-select {
+    border: none;
+    background-color: transparent;
+}
+
+.uzs {
+    border: 1px solid 
+    #E2AC1D;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
