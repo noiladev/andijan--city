@@ -26,6 +26,7 @@ import Header from '../../components/Header/Header'
 function Riel() {
   return (
     <>
+<<<<<<< HEAD
   <div className="container">
     <div className="header">
        <img className='img1' src={img1} alt="" />
@@ -128,6 +129,11 @@ function Riel() {
         </div>
       </div>
   )
+=======
+     
+    </>
+      )
+>>>>>>> parent of 600eb0a (header style)
 }
 
 export default Riel
