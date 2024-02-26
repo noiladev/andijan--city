@@ -14,11 +14,11 @@ function Riel() {
     <>
   <div className="container">
     <div className="header">
-       <img className='img1' src={img1} alt="" />
+       {/* <img className='img1' src={img1} alt="" /> */}
        <div className="middle">
         <h3>Найти хорошего риелтора непросто. Мы поможем!</h3>
         <br />
-        <img className='img2' src={img2} alt="" />
+        {/* <img className='img2' src={img2} alt="" /> */}
         <br />
         <button className='butt'>Подобрать риелтора</button>
        </div>
@@ -27,7 +27,7 @@ function Riel() {
         <div className="cards">
 
         <div className="card">
-          <img src={icon1} alt="" />
+          {/* <img src={icon1} alt="" /> */}
           <h4>Подберёт квартиру по вашим запросам</h4>
           <p>Риелтор видит неочевидные плюсы
           и минусы всех вариантов, а ещё <br />
@@ -37,7 +37,7 @@ function Riel() {
         </div>
 
         <div className="card">
-          <img src={icon2} alt="" />
+          {/* <img src={icon2} alt="" /> */}
           <h4>Проверит квартиру и документы</h4>
           <p>До 7% сделок с недвижимостью <br />
           могут быть оспорены в дальнейшем. <br />
@@ -48,7 +48,7 @@ function Riel() {
 
         </div>
         <div className="card">
-          <img src={icon3} alt="" />
+          {/* <img src={icon3} alt="" /> */}
           <h4>Организует и проведёт сделку</h4>
           <p>Риелтор поможет провести <br />
           просмотры, соберёт и проверит <br />
