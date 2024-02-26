@@ -1,0 +1,35 @@
+.cards{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.main{
+    margin-top: 90px;
+}
+.main__p{
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-align: left;
+}
+.main__p2{
+    padding-top: 60px;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-align: left;
+}
+.pagin{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.img__pagin{
+    padding-top: 60px;
+}
+.banner{
+    margin: 70px auto;
+    padding-top: 50px;
+    justify-content: center;
+}
