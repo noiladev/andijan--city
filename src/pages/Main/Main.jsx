@@ -1,9 +1,16 @@
 import React from 'react'
 import './Main.scss'
+import Header from '../../components/Header/Header'; 
 
+
+
+// Feruza
 function Main() {
   return (
-    <div>Feruza</div>
+    <div> 
+      <Header/>  
+
+    </div>
   )
 }
 
