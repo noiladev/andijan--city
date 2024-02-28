@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Secend_Header() {
+function Secend_Midle() {
   return (
     <div>
       
@@ -8,4 +8,4 @@ function Secend_Header() {
   )
 }
 
-export default Secend_Header
+export default Secend_Midle
