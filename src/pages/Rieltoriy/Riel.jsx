@@ -12,10 +12,21 @@ import icon4 from '../../assets/icon4.png'
 import icon5 from '../../assets/icon5.png'
 import icon6 from '../../assets/icon6.png'
 import icon7 from '../../assets/icon7.png'
+import frame from '../../assets/Frame.png'
+import im1 from '../../assets/1.png'
+import im2 from '../../assets/2.png'
+import im3 from '../../assets/3.png'
+import ava1 from '../../assets/ava1.png'
+
+
+
+import Header from '../../components/Header/Header'
+
 
 function Riel() {
   return (
     <>
+<<<<<<< HEAD
   <div className="container">
     <div className="header">
        <img className='img1' src={img1} alt="" />
@@ -104,13 +115,25 @@ function Riel() {
                 причинам ранее не рассматривали.</p>
           </div>
 
+            <div className="bimg">
+              <img src={im3} alt="" />
+              <span>
+                <h4>Выберите специалиста</h4>
+                <p>Начните работать с понравившимся
+                  риелтором или заполните заявку снова, и
+                  мы постараемся подобрать кого-то ещё.</p>
+              </span>
+            </div>
+          </div>
+
         </div>
-       </div>
-       
-    </div>
-  </div>
-    </>
+      </div>
   )
+=======
+     
+    </>
+      )
+>>>>>>> parent of 600eb0a (header style)
 }
 
 export default Riel
