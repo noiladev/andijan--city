@@ -26,6 +26,7 @@ import Footer from '../../components/Footer/Footer'
 
 function Riel() {
   return (
+<<<<<<< HEAD
     <div className="headeri riel__main">
          <div className="riel__wrapper">
          <span className='hero'>
@@ -176,3 +177,139 @@ function Riel() {
 }
 
 export default Riel
+=======
+      <div className="container">
+        <div className="header">
+          <span>
+            <Header />
+            <img className='img1' src={img1} alt=""/>
+          </span>                    
+          <div className="middle">                    
+            <h3>Найти хорошего риелтора непросто. Мы поможем!</h3>
+            <br />                    
+            <div className="icons">                    
+              <div className="icon">                    
+                <img src={icon4} alt="" />                    
+                <h4>Большая база риелторов</h4>                    
+                <p>С Циан работают более 100 000                    
+                  риелторов из разных регионов                    
+                  России.</p>                    
+              </div>                    
+              <div className="icon">                    
+                <img src={icon5} alt="" />                    
+                <h4>Индивидуальный подбор</h4>                    
+                <p>Учтём все детали от военной                    
+                  ипотеки до материнского                    
+                  капитала.</p>                    
+              </div>                    
+              <div className="icon">                    
+                <img src={icon6} alt="" />                    
+                <h4>Простая анкета</h4>                    
+                <p>Уточним только самую                    
+                  необходимую информацию.</p>                    
+              </div>                    
+              <div className="icon">                    
+                <img src={icon7} alt="" />                    
+                <h4>Бесплатный сервис</h4>                    
+                <p>Подбор бесплатный. Условия                    
+                  работы обсуждаются с риелтором                    
+                  напрямую.</p>                    
+              </div>                    
+            </div>                    
+            <br />                    
+            <button className='butt'>Подобрать риелтора</button>
+          </div>                    
+          <div className="backround">                    
+            <h3>Чем полезен риелтор</h3>                    
+            <div className="cards">                    
+              <div className="card">                    
+                <img src={icon2} alt="" />                    
+                <h4>Подберёт квартиру по вашим запроам</h4>
+                <p>Риелтор видит неочевидные плюсы                    
+                  и минусы всех вариантов, а ещё                    
+                  может обратить ваше внимание на                    
+                  квартиры, которые вы по каким-то                    
+                  причинам ранее не рассматривали.</p>
+              </div>                    
+              <div className="card">                    
+                <img src={icon1} alt="" />                    
+                <h4>Подберёт квартиру по вашим запросам</h4>
+                <p>Риелтор видит неочевидные плюсы                    
+                  и минусы всех вариантов, а ещё                    
+                  может обратить ваше внимание на                    
+                  квартиры, которые вы по каким-то                    
+                  причинам ранее не рассматривали.</p>
+              </div>                    
+              <div className="card">                    
+                <img src={icon3} alt="" />                    
+                <h4>Подберёт квартиру по вашим запросам</h4>
+                <p>Риелтор видит неочевидные плюсы                    
+                  и минусы всех вариантов, а ещё                    
+                  может обратить ваше внимание на                    
+                  квартиры, которые вы по каким-то                    
+                  причинам ранее не рассматривали.</p>
+              </div>                    
+            </div>                    
+            <h3>Подбираем проверенных риелторов</h3>                    
+            <ul className='list'>                    
+              <li className="list__item">                    
+                <span>                    
+                  <h4>Autumn Phillips</h4>                    
+                  <p><i className="bi bi-star-fill my__star"></i> <span  className='my__star'>5,0</span> 137 отзывов  </p>
+                </span>                    
+                <img src={ava1} alt="" />                    
+              </li>                    
+              <li className="list__item">                    
+                <span>                    
+                  <h4>David Elson</h4>                    
+                  <p><i className="bi bi-star-fill my__star"></i> <span className='my__star'>5,0</span> 137 отзывов  </p>
+                </span>                    
+                <img src={ava1} alt="" />                    
+              </li>                    
+              <li className="list__item">                    
+                <span>                    
+                  <h4>James Hall</h4>                    
+                  <p><i className="bi bi-star-fill my__star"></i> <span  className='my__star'>5,0</span> 137 отзывов  </p>
+                </span>                    
+                <img src={ava1} alt="" />                    
+              </li>                    
+            </ul>                    
+          </div>                    
+          <h3>Как это работает</h3>                    
+          <div className="bimges">                    
+            <div className="bimg">                    
+              <img src={im1} alt="" />                    
+              <span>                    
+                <h4>Заполните анкету</h4>                    
+                <p>Это займёт пару минут, мы сможем узнать
+                  все нюансы вашей ситуации, чтобы                    
+                  подобрать для вас подходящих                    
+                  риелторов.</p>                    
+              </span>                    
+            </div>                    
+            <div className="bimg">                    
+              <img src={im2} alt="" />                    
+              <span>                    
+                <h4>Поговорите с риелторами</h4>                    
+                <p>С вами свяжется не более 3-х                    
+                  специалистов, с которыми вы можете                    
+                  обсудить условия работы.</p>                    
+              </span>                    
+            </div>                    
+            <div className="bimg">                    
+              <img src={im3} alt="" />                    
+              <span>                    
+                <h4>Выберите специалиста</h4>                    
+                <p>Начните работать с понравившимся                    
+                  риелтором или заполните заявку снова, и
+                  мы постараемся подобрать кого-то ещё.</p>
+              </span>                    
+            </div>                    
+          </div>                    
+        </div>                    
+      </div>                    
+  )                    
+}                    
+export default Riel                    
+ gi
+>>>>>>> 8d9426193d06f4d50c0a04c183b48d7ab9f9e85c
