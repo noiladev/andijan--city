@@ -5,11 +5,12 @@ import './Footer.scss'
 
 function Footer() {
   return (
-    <div className='footer'> 
+    <div className='footer riel'> 
       <div className="container footer__wrapper">
         <div className="social">
             <Link  className='nav__logo' to='/'> 
-                <img src={logo} alt="" /> <h3>ANDIJAN HOUSE</h3> 
+                <img src={logo} alt="" /> 
+                <h3 className='nav__title'>ANDIJAN HOUSE</h3> 
             </Link> 
             <ul className="net">
               <li className="apps"><i class="bi bi-telegram"></i></li>

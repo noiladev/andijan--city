@@ -5,19 +5,16 @@ import Second from './pages/Second/Second';
 import Third from './pages/Third/Third'; 
 import Riel from './pages/Rieltoriy/Riel'; 
 import Footer from './components/Footer/Footer';
-import Header from './components/Header/Header';
  
 function App() { 
   return ( 
     <div className="App"> 
-    <Header/>
        <Routes> 
         <Route path='/' element={<Main/>}/> 
         <Route path='/second' element={<Second/>}/> 
         <Route path='/third' element={<Third/>}/> 
         <Route path='/rieltoriy' element={<Riel/>}/> 
        </Routes> 
-      <Footer/>
     </div> 
   ); 
 } 
