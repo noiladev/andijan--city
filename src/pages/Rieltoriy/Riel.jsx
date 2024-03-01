@@ -17,7 +17,14 @@ import frame from '../../assets/Frame.png'
 import im1 from '../../assets/1.png'
 import im2 from '../../assets/2.png'
 import im3 from '../../assets/3.png'
-import ava1 from '../../assets/ava1.png'
+import ava1 from '../../assets/riel_circle_img1.png'
+import ava2 from '../../assets/riel_circle_img2.png'
+import ava3 from '../../assets/riel_circle_img3.png'
+import ava4 from '../../assets/riel_circle_img4.png'
+import ava5 from '../../assets/riel_circle_img5.png'
+import ava6 from '../../assets/riel_circle_img6.png'
+import ava7 from '../../assets/riel_circle_img7.png'
+import ava8 from '../../assets/riel_circle_img8.png'
 
 
 
@@ -34,6 +41,35 @@ function Riel() {
           </div> */}
             <Header />
             <img className='img1' src={img1} alt="" />
+            <div className="riel__top__cont">
+              <ul className='riel__top' >
+                <li className='riel__top1'>
+                  <h3>Выберите район</h3>
+                  <select class="form-select " aria-label="Default select example">
+                    <option selected>Open this select menu</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                </li>
+                <li className='riel__top2' >
+                  <h3>Количество комнат</h3>
+                  <span className='top2__span'>
+                    <button>1</button>
+                    <button>2</button>
+                    <button>3</button>
+                    <button>4+</button>
+                  </span>
+                </li>
+                <li></li>
+                <li></li>
+                <li></li> 
+              </ul>
+              <span>
+                <button></button>
+                <button></button>
+              </span>
+            </div>
           </span>
           <div className="middle">
             <h3>Найти хорошего риелтора непросто. Мы поможем!</h3>
@@ -76,9 +112,9 @@ function Riel() {
           </div>
           <div className="backround">
             <h3>Чем полезен риелтор</h3>
-            <div className="cards">
+            <div className="riel__cards">
 
-              <div className="card">
+              <div className="riel__card">
                 <img src={icon2} alt="" />
                 <h4>Подберёт квартиру по вашим запросам</h4>
                 <p>Риелтор видит неочевидные плюсы
@@ -88,7 +124,7 @@ function Riel() {
                   причинам ранее не рассматривали.</p>
               </div>
 
-              <div className="card">
+              <div className="riel__card">
                 <img src={icon1} alt="" />
                 <h4>Подберёт квартиру по вашим запросам</h4>
                 <p>Риелтор видит неочевидные плюсы
@@ -98,7 +134,7 @@ function Riel() {
                   причинам ранее не рассматривали.</p>
               </div>
 
-              <div className="card">
+              <div className="riel__card">
                 <img src={icon3} alt="" />
                 <h4>Подберёт квартиру по вашим запросам</h4>
                 <p>Риелтор видит неочевидные плюсы
@@ -122,16 +158,63 @@ function Riel() {
                   <h4>David Elson</h4>
                   <p><i className="bi bi-star-fill my__star"></i> <span className='my__star'>5,0</span> 137 отзывов  </p>
                 </span>
-                <img src={ava1} alt="" />
+                <img src={ava8} alt="" />
               </li>
               <li className="list__item">
                 <span>
                   <h4>James Hall</h4>
                   <p><i className="bi bi-star-fill my__star"></i> <span  className='my__star'>5,0</span> 137 отзывов  </p>
                 </span>
-                <img src={ava1} alt="" />
+                <img src={ava7} alt="" />
               </li>
             </ul>
+
+
+            <ul className='second__list'>
+
+            <li className="second__list__item">
+                <span>
+                  <h4>Мария Власова</h4>
+                  <p><i className="bi bi-star-fill my__star"></i> <span  className='my__star'>4,8</span> 67 отзывов  </p>
+                </span>
+                <img src={ava6} alt="" />
+              </li>
+
+              <li className="second__list__item">
+                <span>
+                  <h4>Мария Власова</h4>
+                  <p><i className="bi bi-star-fill my__star"></i> <span  className='my__star'>4,8</span> 67 отзывов  </p>
+                </span>
+                <img src={ava5} alt="" />
+              </li>
+
+              <li className="second__list__item">
+                <span>
+                  <h4>Мария Власова</h4>
+                  <p><i className="bi bi-star-fill my__star"></i> <span  className='my__star'>4,8</span> 67 отзывов </p>
+                </span>
+                <img src={ava4} alt="" />
+              </li>
+
+              <li className="second__list__item">
+                <span>
+                  <h4>Мария Власова</h4>
+                  <p><i className="bi bi-star-fill my__star"></i> <span  className='my__star'>4,8</span>67 отзывов  </p>
+                </span>
+                <img src={ava3} alt="" />
+              </li>
+              
+              <li className="second__list__item">
+                <span>
+                  <h4>Мария Власова</h4>
+                  <p><i className="bi bi-star-fill my__star"></i> <span  className='my__star'>4,8</span> 67 отзывов  </p>
+                </span>
+                <img src={ava2} alt="" />
+              </li>
+              
+            </ul>
+
+
           </div>
           <h3>Как это работает</h3>
 
