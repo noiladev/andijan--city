@@ -8,7 +8,7 @@ function Secend_Headr() {
       <div className="container">
         <Header/>
         <div className="Header__nav">
-          {/* <div className="Header__nav__btns">
+          <div className="Header__nav__btns">
             <h1 className='Header__nav__btns__h1'>Выберите дом</h1>
             <div className="Nav__btns">
               <div class="dropdown">
@@ -55,7 +55,7 @@ function Secend_Headr() {
                 </ul>
               </div>
             </div>
-          </div> */}
+          </div>
         </div>
       </div>
     </div>
