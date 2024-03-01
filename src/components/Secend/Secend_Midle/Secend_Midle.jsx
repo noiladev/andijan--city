@@ -1,5 +1,5 @@
 import React from 'react'
-import './Secend_Midle'
+import './Secend_Midle.scss'
 
 function Secend_Midle() {
   return (
