@@ -3,6 +3,7 @@ import './Secend_Mein.scss'
 import btico from '../../../assets/Secend_imgs/btn_icone.png'
 import { home } from '../../../lib/Second__data/Second__data'
 import heart from '../../../assets/img/card3.png'
+import spanico from '../../../assets/Secend_imgs/spam_icon.png'
 
 function Secend_Mein() {
   return (
@@ -53,19 +54,19 @@ function Secend_Mein() {
                 <p className="komolon">Andijon.sh komolon .k </p>
                 <div className="div_2">
                   <p className="div6">
-                    <span className="span1">-</span> Cрок сдачи: 2024
+                    <span className="span1"><img src={spanico} alt="" /></span> Cрок сдачи: 2024
                   </p>
                   <p className="div6">
-                    <span className="span1">-</span>Рассрочка 29 месяц
+                    <span className="span1"><img src={spanico} alt="" /></span>Рассрочка 29 месяц
                   </p>
                 </div>
                 <div className="div_3">
                   <p className="div6">
-                    <span className="span1">-</span>Коробка
+                    <span className="span1"><img src={spanico} alt="" /></span>Коробка
                   </p>
                   <p className="div6">
                     {""}
-                    <span className="span1">-</span>Этажи 16
+                    <span className="span1"><img src={spanico} alt="" /></span>Этажи 16
                   </p>
                 </div>
                 <p className="dogovor">Договорная</p>
