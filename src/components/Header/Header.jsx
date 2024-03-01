@@ -2,14 +2,28 @@ import React from 'react'
 import { Link } from 'react-router-dom' 
 import './Header.scss'
 import logo from '../../assets/img/logos/Group.svg'
-import title from '../../assets/img/title.png'
+// import { MainRu } from '../../lib/Main/MainRu'
+// import { MainUz } from '../../lib/Main/MainUz'
+
 
 function Header() { 
+    // MainRu
+    // MainUz
   return ( 
-    <div className='container'> 
+    <header className='header'>
+    <div className='container '> 
+    {/* {
+         5 == 5 ? MainRu.map((item)=>{
+            <p>{item.btn}</p>
+        }) : 
+        MainUz.map((item)=>{
+            <p>{item.btn}</p>
+        })
+    } */}
         <nav> 
             <Link  className='nav__logo' to='/'> 
-                <img src={logo} alt="" /> <h3>ANDIJAN HOUSE</h3> 
+                <img src={logo} alt="" /> 
+                <h3 className='nav__title'>ANDIJAN HOUSE</h3> 
             </Link> 
             <ul className='nav__list'> 
                 <li className="nav__item"> 
@@ -34,6 +48,7 @@ function Header() {
             
         </nav> 
     </div> 
+    </header>
   ) 
 } 
  
