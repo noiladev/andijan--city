@@ -15,7 +15,6 @@ function App() {
         <Route path='/third' element={<Third/>}/> 
         <Route path='/rieltoriy' element={<Riel/>}/> 
        </Routes> 
-      <Footer/>
     </div> 
   ); 
 } 

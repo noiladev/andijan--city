@@ -7,6 +7,21 @@
     display: flex;
 }
 
+.nav__logo {
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center ;
+    text-align: center;
+    text-decoration: none;
+    color: #E2AC1D;
+}
+
+.nav__title {
+    margin-top: 40px;
+    text-align: center;
+}
+
 .social {
     display: block;
     justify-content: center;
