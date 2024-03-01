@@ -1,50 +1,53 @@
-.cards{
+.third__top{
+    margin-top: 150px;
+}
+.third__cards{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-.main{
+.third__main{
     margin-top: 90px;
 }
-.main__p{
+.third__main__p{
     color: black;
     font-weight: bold;
     font-size: 22px;
     text-align: left;
 }
-.main__p2{
+.third__main__p2{
     padding-top: 60px;
     color: black;
     font-weight: bold;
     font-size: 22px;
     text-align: left;
 }
-.pagin{
+.third__pagin{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.img__pagin{
+.third__img__pagin{
     padding-top: 60px;
 }
-.banner{
+.third__banner{
     margin: 70px auto;
     padding-top: 50px;
     justify-content: center;
     cursor: text;
 }
-.card{
+.third__card{
     cursor: pointer;
 }
-.textd{
-    background-image: url('../../assets/photo_5386858599982159519_y.jpg');
+.third__textd{
+    background-image: url('../../assets/img/bg.jpg');
     height: 500px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.text{
+.third__text{
     width: 900px;
     height: 220px;
     background-color: white;
@@ -53,13 +56,68 @@
     margin-bottom: 117px;
     box-shadow: 0px 0px 99px 0px rgb(181, 181, 181);
 }
-.t__h3{
+.third__t__h3{
     font-weight: bold;
     text-align: left;
     margin-left: 20px;
 }
-.t__p{
+.third__t__p{
     text-align: left;
     font-weight: 500;
     margin-left: 20px;
+}
+.third__input{
+    margin-right: 934px;
+    border-radius: 5px;
+    margin-bottom: 200px;
+    padding: 4px;
+    text-align: center;
+    font-weight: 300 bold;
+    display: block;
+    z-index: 1;
+    transform: translateY(-168px);
+    margin-left: 200px;
+}
+.third__input2{
+    margin-right: 934px;
+    border-radius: 5px;
+    margin-bottom: 200px;
+    padding: 4px;
+    text-align: center;
+    font-weight: 300 bold;
+    display: block;
+    z-index: 1;
+    transform: translateY(-328px);
+    margin-left: 200px;
+}
+.third__input3{
+    margin-right: 934px;
+    border-radius: 5px;
+    margin-bottom: 200px;
+    padding: 4px;
+    text-align: center;
+    font-weight: 300 bold;
+    display: block;
+    z-index: 1;
+    transform: translateY(-638px);
+    margin-left: 400px;
+}
+.third__btn{
+    margin-right: 934px;
+    border-radius: 5px;
+    margin-bottom: 200px;
+    padding-top: 4px;
+    padding-bottom: 5px;
+    padding-left: 6dvb;
+    padding-right: 60px;
+    text-align: center;
+    font-weight: 300 bold;
+    display: block;
+    z-index: 1;
+    transform: translateY(-799px);
+    margin-left: 403px;
+    bottom: none;
+    background-color: orange;
+    font-weight: 700 bold;
+    text-align: center;
 }
