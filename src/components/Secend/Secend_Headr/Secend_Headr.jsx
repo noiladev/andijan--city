@@ -1,12 +1,10 @@
 import React from 'react'
 import './Secend_Headr.scss'
-import Header from '../../Header/Header'
 
 function Secend_Headr() {
   return (
     <div className='Header'>
       <div className="container">
-        <Header/>
         <div className="Header__nav">
           <div className="Header__nav__btns">
             <h1 className='Header__nav__btns__h1'>Выберите дом</h1>
