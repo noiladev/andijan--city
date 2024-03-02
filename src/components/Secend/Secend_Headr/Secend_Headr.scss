@@ -1,0 +1,86 @@
+.Header__nav{
+    padding-top: 250px;
+    background-color: rgba(0, 255, 255, 0.062);
+}
+
+.Header__nav__btns__h1{
+    font-size: 35px;
+    font-weight: 400;
+    text-align: left;
+    margin-left: 10px;
+    
+}
+
+.Nav__btns{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-light{
+    color: #402D01;
+    padding-right: 107px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+}
+
+.dropdown-toggle{
+    margin-left: 10px;
+}
+
+.dropdown{
+    h6{
+        color:#8C94A8;
+        font-size: 12px;
+        font-weight: 500;
+        text-align: left;
+        margin-left: 15px;
+        margin-bottom: 12px;
+        
+    }
+}
+
+.btn__h6{
+    color: #8C94A8;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.house__size__inp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.house__size__inp1{
+    width: 50px;
+    padding-bottom: 1px;
+    border: none;
+    margin-right: 10px;
+    background-color: white;
+}
+
+.house__size__h6{
+    font-size: 17px;
+    font-weight: 500;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.input__line{
+    width: 23px;
+    height: 3px;
+    border: 1px solid #BCC3D2;
+    background-color: #BCC3D2;
+}
+
+.btn__botom__img{
+    margin-top: -30px;
+}
