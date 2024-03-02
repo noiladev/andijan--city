@@ -1,8 +1,8 @@
 .header {
-   width: 100%;
+    width: 100%;
     position: absolute;
     margin: 0 auto;
- 
+
 }
 
 nav {
@@ -18,22 +18,26 @@ nav {
     padding: 13px 10px 11px 30px;
     position: relative;
     // z-index: ;
-    background-color: #FFFFFF;
+    background-color: rgba(235, 235, 235, 0.329);
+    width: 1300px;
+    margin-left: 5px;
 }
 
 .nav__logo {
-    width: 300px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center ;
+    // width: 300px;
+    // display: flex;
+    // justify-content: space-around;
+    // align-items: center ;
     text-align: center;
     text-decoration: none;
     color: #E2AC1D;
+    margin-top: -13px;
+    margin-right: 35w0px;
 }
 
-.nav__title {
-    margin-top: 40px;
-    text-align: center;
+.nav__titl {
+    margin-top: 21px;
+    margin-left: -8px;
 }
 
 .nav__list {
@@ -41,6 +45,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     list-style-type: none;
+    margin-top: 13px;
 }
 
 .nav__item {

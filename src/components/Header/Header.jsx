@@ -6,7 +6,7 @@ import logo from '../../assets/img/logos/Group.svg'
 // import { MainUz } from '../../lib/Main/MainUz'
 
 
-function Header() { 
+function Header() {
     // MainRu
     // MainUz
   return ( 
@@ -23,7 +23,7 @@ function Header() {
         <nav> 
             <Link  className='nav__logo' to='/'> 
                 <img src={logo} alt="" /> 
-                <h3 className='nav__title'>ANDIJAN HOUSE</h3> 
+                <h3 className='nav__titl'>ANDIJAN HOUSE</h3> 
             </Link> 
             <ul className='nav__list'> 
                 <li className="nav__item"> 
