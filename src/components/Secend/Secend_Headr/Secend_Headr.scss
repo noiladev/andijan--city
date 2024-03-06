@@ -1,46 +1,53 @@
-.Header__nav{
+.Header__nav {
     padding-top: 250px;
+    width: 1600px;
 }
 
-.Header__nav__btns__h1{
+.Header__nav__btns {
+    width: 1300px;
+    margin-left: 150px;
+}
+
+.Header__nav__btns__h1 {
     font-size: 35px;
     font-weight: 400;
     text-align: left;
     margin-left: 10px;
-    
+
 }
 
-.Nav__btns{
+.Nav__btns {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.btn-light{
+.btn-light {
     color: #402D01;
     padding-right: 107px;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: rgb(226, 226, 226);
+    background-color:
+        #FFFFFF;
 }
 
-.dropdown-toggle{
+.dropdown-toggle {
     margin-left: 10px;
 }
 
-.dropdown{
-    h6{
-        color:#8C94A8;
+.dropdown {
+    h6 {
+        color: #8C94A8;
         font-size: 12px;
         font-weight: 500;
         text-align: left;
         margin-left: 15px;
         margin-bottom: 12px;
-        
+
     }
 }
 
-.btn__h6{
+.btn__h6 {
     color: #8C94A8;
     font-size: 12px;
     font-weight: 500;
@@ -48,65 +55,181 @@
     margin-top: 20px;
 }
 
-.house__size__inp{
+.house__size__inp {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 250px;
     height: 45px;
     border-radius: 5px;
-    background-color: rgb(226, 226, 226);
+    background-color:
+        #FFFFFF;
 }
 
-.house__size__inp1{
+.house__size__inp1 {
     width: 50px;
     padding-bottom: 1px;
     border: none;
     margin-right: 10px;
-    background-color: rgb(226, 226, 226);
+    background-color: 
+    #FFFFFF;
 }
 
-.house__size__h6{
+.house__size__h6 {
     font-size: 17px;
     font-weight: 500;
     text-align: left;
     margin-left: 10px;
 }
 
-.input__line{
+.input__line {
     width: 23px;
     height: 3px;
     border: 1px solid #BCC3D2;
     background-color: #BCC3D2;
 }
 
-.btn__botom__img{
+.btn__botom__img {
     margin-top: -30px;
 }
 
-.Nav__btns__drop1{
+.Nav__btns__drop1 {
     width: 300px;
     height: 40px;
-    border: 1px solid black;
+    border-radius: 5px;
     margin-bottom: 12px;
-    img{
-        width: 100%;
-    }
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: 
+    #FFFFFF;
 }
 
-.Nav__btns__drop2{
+.Nav__btns__drop2 {
     width: 300px;
     height: 45px;
-    border: 1px solid black;
+    border: 1px solid
+    #FFFFFF;
+    border-radius: 5px;
     margin-bottom: 35px;
+    background-color: 
+    #FFFFFF
 }
 
-.Nav__btn__w{
-    width: 300px;
+.Nav__btns__drop1__h6 {
+    font-size: 12px;
+    font-weight: 400;
+    color: #8C94A8;
+    margin-right: 10px;
+    margin-top: 10px;
 }
 
-.btn__botom__img2{
-    width: 280px;
-    margin-top: -30px;
+.Nav__btns__drop1__h61 {
+    font-size: 12px;
+    font-weight: 400;
+    color: #E2AC1D;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.Nav__btns__drop1__h6_icon {
+    margin-left: -2px;
+}
+
+.drop2__btns__inp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+
+.drop2__inp {
+    width: 60px;
+    height: 25px;
+    margin-top: -5px;
+    border: none;
+    background-color: 
+    #FFFFFF;
+}
+
+.drop2__h6 {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    color: #8C94A8;
+    margin-left: 8px;
+}
+
+.drop2__h61 {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    color: #8C94A8;
+}
+
+.drop2__h62 {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    color: #8C94A8;
+}
+
+.drop2__h63 {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    color: #8C94A8;
+    margin-right: 8px;
+}
+
+.drop2__line {
+    width: 25px;
+    height: 2px;
+    border: 1px solid #8C94A8;
+    background-color: #8C94A8;
+    margin-top: -3px;
+}
+
+.Nav__btns__drop2__btm__img {
+    width: 260px;
+    margin-top: -20px;
     object-fit: cover;
+}
+
+.Nav__thre__btns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 34px;
+}
+
+.thre__btn {
+    width: 157px;
+    height: 40px;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #E2AC1D;
+    margin-left: 10px;
+    border: none;
+    background-color: 
+    #FFFFFF;
+}
+
+.thre__h3 {
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.thre__h5 {
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 10px;
+
+    img {
+        object-fit: cover;
+        width: 16px;
+        height: 16px;
+    }
 }

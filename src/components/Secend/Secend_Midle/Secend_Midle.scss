@@ -1,0 +1,44 @@
+.Nav__midle{
+    background-image: url('../../../assets/Secend_imgs/Secend__main_bg_img.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1600px;
+    height: 681px;
+}
+
+.Nav__midle__cart{
+    width: 1110px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    margin-left: 150px;
+    transform: translateY(150px);
+}
+
+.cart__lorem__midl{
+    text-align: left;
+    margin-left: 50px;
+    padding-top: 20px;
+
+    h1{
+        color:#262D33;
+        font-size: 29pt;
+        font-weight: 600;
+        text-align: left;        
+    }
+}
+
+.cart__lorem{
+    color: #4B5157;
+    font-size: 19px;
+    font-weight: 400;
+    text-align: left;
+    padding-top: 17px;    
+}
+.cart__loren{
+    color: #4B5157;
+    font-size: 19px;
+    font-weight: 400;
+    text-align: left;
+    padding-top: 7px;    
+}
