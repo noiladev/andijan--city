@@ -5,7 +5,7 @@ import './Footer.scss'
 
 function Footer() {
   return (
-    <div className='footer riel'> 
+    <div className='footer  '> 
       <div className="container footer__wrapper">
         <div className="social">
             <Link  className='nav__logo' to='/'> 

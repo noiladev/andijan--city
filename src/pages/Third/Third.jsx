@@ -9,17 +9,19 @@ import banner from '../../assets/img/Banner.png'
 import building from '../../assets/img/building.png'
 import Header from '../../components/Header/Header'
 import form from '../../assets/img/form.png'
+import { ThirdData } from '../../lib/third/third'
 
-function Third() {
+function Third({lang}) {
+  const data = ThirdData[lang]
+  console.log(data);
   return (
     <div className="third__special">
     <section className="Third">
-      <Header/>
       <div className="container">
         <img className='third__top' src={top} alt="" />
         <div className="third__main">
           <div className="third__pagin">
-            <p className="third__main__p">Особенности комплекса</p>
+            <p className="third__main__p">{data.kompleks} </p>
             <img src={pagination} alt="" />
           </div>
           <div className="third__cards">
@@ -37,7 +39,7 @@ function Third() {
             </div>
           </div>
           <div className="third__pagin">
-            <p className="third__main__p2">Места поблизости</p>
+            <p className="third__main__p2"> {data.pobliznosti}</p>
             <img className='third__img__pagin' src={pagination} alt="" />
 
           </div>
@@ -63,13 +65,10 @@ function Third() {
         <div className="third__text">
           <h3 className="third__t__h3">О жилом комплексе</h3>
           <p className='third__t__p'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Cumque totam voluptates <br />ea dignissimos sapiente ratione sunt amet nihil
-            laudantium ipsa dolore deleniti, assumenda quae consequuntur. <br />
+          {data.komplekse_description}
+          <br />
             <br />
-            Aliquid illum libero exercitationem cupiditate nulla hic?<br />
-            Porro molestias ducimus, vel exercitationem odit ea laudantium similique.
-            Cupiditate, maiores enim! Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            {data.komplekse_description2} 
           </p>
         </div>
       </div>
@@ -78,7 +77,7 @@ function Third() {
         <input className='third__input' type="text"  placeholder='Ваше имя'/>
         <input className='third__input2' type="text"  placeholder='Ваш email'/>
         <input className='third__input3' type="text"  placeholder='+998__ ___ __ __'/>
-        <button className='third__btn'>Отправить</button>
+        <button className='third__btn'> {data.otpavit}</button>
         </div>
     </section>
     </div>

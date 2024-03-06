@@ -18,25 +18,24 @@ import im1 from '../../assets/1.png'
 import im2 from '../../assets/2.png'
 import im3 from '../../assets/3.png'
 import ava1 from '../../assets/ava1.png'
-
-
-
 import Header from '../../components/Header/Header'
 import Footer from '../../components/Footer/Footer'
+import { rielData } from '../../lib/Header/header'
 
 
-function Riel() {
+function Riel({lang}) {
+  const data = rielData[lang];
+  console.log(data);
   return (
     <div className="headeri riel__main">
          <div className="riel__wrapper">
          <span className='hero'>
           {/* <div className="container">
           </div> */}
-            <Header />
             <img className='img1' src={img1} alt="" />
           </span>
           <div className="middle">
-            <h3>Найти хорошего риелтора непросто. Мы поможем!</h3>
+            <h3>{data.nayti}</h3>
             <br />
             <div className="icons">
               <div className="icon">
@@ -72,10 +71,10 @@ function Riel() {
 
             </div>
             <br />
-            <button className='butt'>Подобрать риелтора</button>
+            <button className='butt'>{data.btn}</button>
           </div>
           <div className="backround">
-            <h3>Чем полезен риелтор</h3>
+            <h3>{data.polezen}</h3>
             <div className="cards">
 
               <div className="card">
@@ -108,7 +107,7 @@ function Riel() {
                   причинам ранее не рассматривали.</p>
               </div>
             </div>
-            <h3>Подбираем проверенных риелторов</h3>
+            <h3>{data.podribaem}</h3>
             <ul className='list'>
               <li className="list__item">
                 <span>
@@ -133,7 +132,7 @@ function Riel() {
               </li>
             </ul>
           </div>
-          <h3>Как это работает</h3>
+          <h3>{data.rabotaet}</h3>
 
           <div className="bimges">
 
@@ -141,31 +140,24 @@ function Riel() {
             <div className="bimg">
               <img src={im1} alt="" />
               <span>
-                <h4>Заполните анкету</h4>
-                <p>Это займёт пару минут, мы сможем узнать
-                  все нюансы вашей ситуации, чтобы
-                  подобрать для вас подходящих
-                  риелторов.</p>
+                <h4>{data.card1_title}</h4>
+                <p> {data.card1_des} </p>
               </span>
             </div>
 
             <div className="bimg">
               <img src={im2} alt="" />
               <span>
-                <h4>Поговорите с риелторами</h4>
-                <p>С вами свяжется не более 3-х
-                  специалистов, с которыми вы можете
-                  обсудить условия работы.</p>
+                <h4>{data.card2_title}</h4>
+                <p>{data.card2_des}</p>
               </span>
             </div>
 
             <div className="bimg">
               <img src={im3} alt="" />
               <span>
-                <h4>Выберите специалиста</h4>
-                <p>Начните работать с понравившимся
-                  риелтором или заполните заявку снова, и
-                  мы постараемся подобрать кого-то ещё.</p>
+                <h4>{data.card3_title}</h4>
+                <p> {data.card3_des}</p>
               </span>
             </div>
           </div>
