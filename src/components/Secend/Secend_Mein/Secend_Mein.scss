@@ -86,18 +86,26 @@
     align-items: center;
     margin-left: 160px;
     margin-top: 70px;
+    margin-bottom: 60px;
 }
 
 .Mein__Nav__cart1{
     width: 420px;
     height: 645px;
-    border: 1px solid #000;
     border-radius: 10px;
     box-shadow: 1px 6px 6px 0px rgba(128, 128, 128, 0.267);
 }
 
 .Nav__cart__hedr{
     background-image: url('../../../assets/Secend_imgs/Cart__bg__img.png');
+    background-repeat: no-repeat;
+    border-radius: 10px 10px 0px 0px;
+    width: 420px;
+    height: 344px;
+}
+
+.Nav__cart__heder{
+    background-image: url('../../../assets/Secend_imgs/Cart__bg__img__2.png');
     background-repeat: no-repeat;
     border-radius: 10px 10px 0px 0px;
     width: 420px;
@@ -300,4 +308,18 @@
     border: none;
     margin-top: 10px;
     
+}
+
+.Cart__mein__btn{
+    width: 244px;
+    height: 54px;
+    border-radius: 5px;
+    margin-left: 150px;
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 5px;
+    color: #402D01;
+    background: linear-gradient(87.14deg, #E2AC1D 1.37%, #FED46A 50.21%, #E0A818 98.98%);
+    box-shadow: 0px 3px 0px 0px #815D0A;
+    border: none;
 }

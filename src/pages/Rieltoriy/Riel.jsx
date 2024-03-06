@@ -16,21 +16,7 @@ import frame from '../../assets/Frame.png'
 import im1 from '../../assets/1.png'
 import im2 from '../../assets/2.png'
 import im3 from '../../assets/3.png'
-<<<<<<< HEAD
 import ava1 from '../../assets/ava1.png'
-=======
-import ava1 from '../../assets/riel_circle_img1.png'
-import ava2 from '../../assets/riel_circle_img2.png'
-import ava3 from '../../assets/riel_circle_img3.png'
-import ava4 from '../../assets/riel_circle_img4.png'
-import ava5 from '../../assets/riel_circle_img5.png'
-import ava6 from '../../assets/riel_circle_img6.png'
-import ava7 from '../../assets/riel_circle_img7.png'
-import ava8 from '../../assets/riel_circle_img8.png'
-
-
-
->>>>>>> 2914a21d0e62fb70511f7efc5705aed7e12bd1a1
 import Header from '../../components/Header/Header'
 import Footer from '../../components/Footer/Footer'
 import { rielData } from '../../lib/Header/header'
@@ -87,13 +73,8 @@ function Riel({lang}) {
             <button className='butt'>{data.btn}</button>
           </div>
           <div className="backround">
-<<<<<<< HEAD
             <h3>{data.polezen}</h3>
             <div className="cards">
-=======
-            <h3>Чем полезен риелтор</h3>
-            <div className="riel__cards">
->>>>>>> 2914a21d0e62fb70511f7efc5705aed7e12bd1a1
 
               <div className="riel__card">
                 <img src={icon2} alt="" />
@@ -139,14 +120,14 @@ function Riel({lang}) {
                   <h4>David Elson</h4>
                   <p><i className="bi bi-star-fill my__star"></i> <span className='my__star'>5,0</span> 137 отзывов  </p>
                 </span>
-                <img src={ava8} alt="" />
+                {/* <img src={ava8} alt="" /> */}
               </li>
               <li className="list__item">
                 <span>
                   <h4>James Hall</h4>
                   <p><i className="bi bi-star-fill my__star"></i> <span  className='my__star'>5,0</span> 137 отзывов  </p>
                 </span>
-                <img src={ava7} alt="" />
+                {/* <img src={ava7} alt="" /> */}
               </li>
             </ul>
 
@@ -158,7 +139,7 @@ function Riel({lang}) {
                   <h4>Мария Власова</h4>
                   <p><i className="bi bi-star-fill my__star"></i> <span  className='my__star'>4,8</span> 67 отзывов  </p>
                 </span>
-                <img src={ava6} alt="" />
+                {/* <img src={ava6} alt="" /> */}
               </li>
 
               <li className="second__list__item">
@@ -166,7 +147,7 @@ function Riel({lang}) {
                   <h4>Мария Власова</h4>
                   <p><i className="bi bi-star-fill my__star"></i> <span  className='my__star'>4,8</span> 67 отзывов  </p>
                 </span>
-                <img src={ava5} alt="" />
+                {/* <img src={ava5} alt="" /> */}
               </li>
 
               <li className="second__list__item">
@@ -174,7 +155,7 @@ function Riel({lang}) {
                   <h4>Мария Власова</h4>
                   <p><i className="bi bi-star-fill my__star"></i> <span  className='my__star'>4,8</span> 67 отзывов </p>
                 </span>
-                <img src={ava4} alt="" />
+                {/* <img src={ava4} alt="" /> */}
               </li>
 
               <li className="second__list__item">
@@ -182,7 +163,7 @@ function Riel({lang}) {
                   <h4>Мария Власова</h4>
                   <p><i className="bi bi-star-fill my__star"></i> <span  className='my__star'>4,8</span>67 отзывов  </p>
                 </span>
-                <img src={ava3} alt="" />
+                {/* <img src={ava3} alt="" /> */}
               </li>
               
               <li className="second__list__item">
@@ -190,7 +171,7 @@ function Riel({lang}) {
                   <h4>Мария Власова</h4>
                   <p><i className="bi bi-star-fill my__star"></i> <span  className='my__star'>4,8</span> 67 отзывов  </p>
                 </span>
-                <img src={ava2} alt="" />
+                {/* <img src={ava2} alt="" /> */}
               </li>
               
             </ul>
