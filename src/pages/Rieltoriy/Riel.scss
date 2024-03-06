@@ -52,7 +52,7 @@ h3{
 
     // width: 1600px;  
     height: 882px;
-    background-image: url('../../assets/back2.png');
+    background-image: url(../../assets/back2.png);
     // background-repeat: no-repeat;
 }
 .riel__cards{
@@ -191,24 +191,6 @@ h3{
         }
         .my__star {
             color: #FED46A;
-        }
-    }
-}
-
-
-//
-
-.riel__top2 {
-    display: block;
-    .top2__span {
-        width: 185px;
-        height: 92px;
-        border: 1px solid #A6A6A6;
-        border: 1px solid red;
-        button {
-            border: none;
-            border-right: 1px solid #A6A6A6;
-            margin: 10px 0;
         }
     }
 }
