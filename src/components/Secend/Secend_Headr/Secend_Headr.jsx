@@ -11,7 +11,6 @@ import btnico from '../../../assets/Secend_imgs/btn__icon.png'
 function Secend_Headr() {
   return (
     <div className='Header'>
-      <Header />
       <div className="container">
         <div className="Header__nav">
           <div className="Header__nav__btns">

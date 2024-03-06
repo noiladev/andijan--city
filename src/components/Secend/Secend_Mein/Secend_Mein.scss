@@ -79,3 +79,225 @@
         margin-right: 10px;
     }
 }
+
+.Mein__Nav__carts{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 160px;
+    margin-top: 70px;
+}
+
+.Mein__Nav__cart1{
+    width: 420px;
+    height: 645px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    box-shadow: 1px 6px 6px 0px rgba(128, 128, 128, 0.267);
+}
+
+.Nav__cart__hedr{
+    background-image: url('../../../assets/Secend_imgs/Cart__bg__img.png');
+    background-repeat: no-repeat;
+    border-radius: 10px 10px 0px 0px;
+    width: 420px;
+    height: 344px;
+}
+
+.cart__header__two__lift__btn{
+    width: 80px;
+    height: 28px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.815);
+}
+
+.cart__header__two__right__btn{
+    width: 80px;
+    height: 28px;   
+    border: none;
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.815);
+    margin-left: 10px;
+}
+
+.cart__heart__logo{
+    width: 35px;
+    height: 30px;
+    margin-right: 25px;
+    border: none;
+    background-color: white;
+    padding-bottom: 10px;    
+    border-radius: 3px;
+}
+
+.cart__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.cart__header__two_btn{
+    margin-left: 20px;
+}
+
+.midle__h4{
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    margin-left: 25px;
+}
+
+.midle__btn{
+    width: 165px;
+    height: 26px;
+    background-color: #E2AC1D;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 3px, 5px, 3px, 5px;
+    margin-right: 25px;
+}
+
+.midle__btn__lorm{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 233px;
+}
+
+.midle__line{
+    width: 118px;
+    height: 8px;
+    border-radius: 5px;
+    background-color: white;
+    margin-left: 25px;
+}
+
+.midle__line1{
+    width: 118px;
+    height: 8px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.527);
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.midle__line2{
+    width: 118px;
+    height: 8px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.527);
+    margin-right: 25px;
+    margin-left: 8px;
+}
+
+.midle__three__divs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.Nav__cart__botom{
+
+    h4{
+        font-size: 14px;
+        font-weight: 500;
+        text-align: left;
+        margin-left: 25px;
+        margin-top: 8px;
+        color: #100B00;
+    }
+}
+
+.Cart__header__h2{
+    font-size: 24px;
+    font-weight: 600;
+    text-align: left;
+    color: #E2AC1D;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+
+.Nav__cart__botom__h3s{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    h3{
+        font-size: 16px;
+        font-weight: 400;
+        text-align: left;
+        margin-left: 35px;
+        margin-top: 17px;
+        color: #100B00;
+        img{
+            margin-right: 3px;
+        }
+    }
+    h4{
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: -30px;
+        margin-right: 25px;
+        color: #100B00;
+        img{
+            margin-right: 3px;
+        }
+    }
+}
+
+.Nav__cart__botom__h3ss{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -50px;
+
+    h3{
+        font-size: 16px;
+        font-weight: 400;
+        text-align: left;
+        margin-left: 35px;
+        margin-top: 17px;
+        color: #100B00;
+        img{
+            margin-right: 3px;
+        }
+    }
+    h4{
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: -30px;
+        margin-right: 105px;
+        color: #100B00;
+
+        img{
+            margin-right: 3px;
+        }
+    }
+}
+
+.Cart__botom__h2{
+    font-size: 26px;
+    font-weight: 700;
+    text-align: left;
+    color: #100B00;
+    margin-left: 25px;
+    margin-top: -40px;
+}
+
+.Cart__botom__btn{
+    width: 370px;
+    height: 54px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    background-color:#FED46A;
+    color: #100B00;
+    border: none;
+    margin-top: 10px;
+    
+}
