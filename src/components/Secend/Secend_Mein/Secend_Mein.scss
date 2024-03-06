@@ -1,0 +1,81 @@
+.Btn__dropdawn{
+    width: 280px;
+    height: 48px;
+    border-radius: 5px;
+    background-color: white;
+    margin-left: 160px;
+    margin-top: 70px;
+    border: none;
+}
+
+.Btn__dropdawn__left_img{
+    margin-right: 10px;
+}
+
+.Btn__dropdawn__right_img{
+    margin-left: 40px;
+}
+
+.Btn__leaft{
+    width: 122px;
+    height: 48px;
+    margin-left: 20px;
+    border-radius: 8px 0px 0px 8px;
+    background-color: white;
+    border: none;
+}
+
+.Btn__right{
+    width: 122px;
+    height: 48px;
+    border-radius: 0px 8px 8px 0px;
+    margin-left: -6px;
+    background-color: white;
+    border: none;
+}
+
+.Btn__leaft:active{
+    background-color: #E2AC1D;
+    color: white;
+}
+
+.Btn__right:active{
+    background-color: #E2AC1D;
+    color: white;
+}
+
+.Mein__Nav__btns{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Mein__Nav__right__btn{
+    margin-top: 80px;
+    margin-right: -140px;
+}
+
+.Right__btn__rig{
+    width: 24px;
+    height: 24px;
+    border: none;
+    background-color: white;
+    background-color: #E2AC1D;
+    border-radius: 3px;
+    img{
+        padding-bottom: 6px;
+        margin-right: 10px;
+    }
+}
+
+.Right__btn__lef{
+    width: 24px;
+    height: 24px;
+    border: none;
+    border-radius: 3px;
+    background-color: white;
+    img{
+        padding-bottom: 6px;
+        margin-right: 10px;
+    }
+}
